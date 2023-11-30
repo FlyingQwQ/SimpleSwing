@@ -1,0 +1,12 @@
+<Panel layout="GridLayout">
+    <Panel layout="auto" id="233">
+        <Text position="{ x:2, y:1 }" size="{ width: 50, height: 30 }" value="用户名" />
+        <Input position="{ x:60, y:1 }" size="{ width: 160, height: 30 }" id="username" />
+
+        <Text position="{ x:1, y:40 }" size="{ width: 50, height: 30 }" value="密码" />
+        <Input position="{ x:60, y:40 }" size="{ width: 160, height: 30 }" id="password" />
+
+        <CheckBox position="{ x:1, y:70 }" size="{ width: 160, height: 30 }" value="记住密码" id="rememberMe" />
+    </Panel>
+    <Button position="{ x:60, y:250 }" size="{ width: 400, height: 30 }" value="登录" id="loginBtn" />
+</Panel>
